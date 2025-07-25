@@ -5,8 +5,8 @@ install:
 	pre-commit install
 
 format:
-	poetry run isort zmapsdk
-	poetry run black zmapsdk
+	poetry run isort pyzmap
+	poetry run black pyzmap
 
 lint:
 	poetry run isort --check-only --diff .
