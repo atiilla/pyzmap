@@ -1,5 +1,5 @@
-from setuptools import find_packages, setup
 from pathlib import Path
+from setuptools import find_packages, setup
 
 # Load long description from README.md
 this_directory = Path(__file__).parent
