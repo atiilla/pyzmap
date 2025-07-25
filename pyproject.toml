@@ -4,7 +4,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
 name = "pyzmap"
-version = "0.1.1"
+version = "0.1.2"
 description = "Python SDK for the ZMap network scanner"
 readme = "README.md"
 authors = ["Atilla <attilla@tuta.io>"]
