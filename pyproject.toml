@@ -9,8 +9,8 @@ description = "Python SDK for the ZMap network scanner"
 readme = "README.md"
 authors = ["Atilla <attilla@tuta.io>"]
 license = "MIT"
-packages = [{include = "pyzmap"}]
 repository = "https://github.com/atiilla/pyzmap"
+packages = [{ include = "pyzmap" }]
 classifiers = [
     "Development Status :: 4 - Beta",
     "Intended Audience :: Developers",
@@ -47,3 +47,15 @@ sphinx = "==8.0.0"
 sphinx-autoapi = ">=3.6.0,<4.0.0"
 sphinx-autobuild = ">=2024.10.3,<2025.0.0"
 sphinx-rtd-theme = ">=3.0.2,<4.0.0"
+
+[tool.poetry.scripts]
+pyzmap = "pyzmap.cli:main"
+
+[tool.isort]
+profile = "black"
+skip = [".venv", "__pycache__"]
+
+[tool.pytest.ini_options]
+addopts = "-ra -q"
+testpaths = ["tests"]
+python_files = "test_*.py"
