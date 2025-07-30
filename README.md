@@ -538,6 +538,18 @@ The pyzmap is provided for legitimate network research and security assessments 
 
 Before using this SDK for any network scanning operation, especially on production networks, consult with network administrators and obtain proper written permission.
 
+
+## Acknowledgements
+This project is inspired by the ZMap network scanner and aims to provide a user-friendly interface for Python developers to leverage its capabilities.
+
+## Thanks
+Special thanks to <a href="https://github.com/ahsentekd">@ahsentekd</a> for the significant contributions including:
+- CI/CD pipeline implementation and testing infrastructure
+- Code quality improvements and modern Python typing
+- Migration to Poetry build system
+- Pre-commit hooks and automated workflows
+- Documentation enhancements and project maintenance
+
 ## License
 
 MIT
