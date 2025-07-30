@@ -8,7 +8,7 @@ long_description = (this_directory / "README.md").read_text(encoding="utf-8")
 
 setup(
     name="pyzmap",
-    version="0.1.2",
+    version="0.1.3",
     description="Python SDK for the ZMap network scanner with REST API support",
     long_description=long_description,
     long_description_content_type="text/markdown",
